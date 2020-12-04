@@ -1,0 +1,241 @@
+/**Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+/*Header*/
+header .container-fluid .navbar img {
+    padding-top: 3vmin;
+    padding-left: 5vmin;
+    margin-right: 0.6vmin;
+}
+
+header .nav-item:last-child {
+    padding-right: 6em;
+}
+
+header .nav-item button {
+    background: #263238;
+    border-radius: 5px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #92E3A9;
+}
+
+header .nav-item a {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #263238;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+    width: 90%;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+header .row .col-md-7 {
+    padding-top: 15vmin;
+}
+
+header .row .col-md-7 h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+header .row .col-md-7 p {
+    padding-top: 3vmin;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+header .row .col-md-7 .btn1 {
+    background: #263238;
+    border-radius: 5px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #92E3A9;
+}
+
+header .row .col-md-7 .btn2 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    background: #92E3A9;
+    border-radius: 5px;
+    margin-bottom: 4vmin;
+}
+
+.section-1 {
+    background-color: #92E3A9;
+    padding: 5vmin;
+}
+
+.section-1 h3 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.66rem;
+    color: #263238;
+    padding-bottom: 2rem;
+}
+
+
+.section-1 .col-md-4 img {
+    display: inline-block;
+    vertical-align: top;
+    width: 12%;
+}
+
+.section-1 .col-md-4 p {
+    display: inline-block;
+    width: 80%;
+    padding-left: 1rem;
+}
+
+.section-2 {
+    padding: 5vmin;
+}
+
+.section-2 .container {
+    padding: 7vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+
+.section-2 .container h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #263238;
+    padding-right: 5rem;
+}
+
+.section-2 .container p {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #263238;
+    padding-right: 10rem;
+}
+
+.section-2 .container label {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #263238;
+}
+
+.section-2 .container button {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #92E3A9;
+    background: #263238;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #263238;
+    padding-top: 3vmin;
+}
+
+footer .column i {
+    padding: 0.5vmin;
+    color: white;
+}
+
+footer p {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header .modal .modal-header {
+    background: #92E3A9;
+}
+
+header .modal .modal-header h5 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 2rem;
+}
+
+header .modal .input-group {
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+}
+
+header .modal .btn {
+    background: #263238;
+    border-radius: 5px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #92E3A9;
+    margin-top: 5vmin;
+    display: center;
+}
+
+header .modal .container-fluid {
+    background-color: #92E3A9;
+    width: 100%;
+    margin-top: 4vmin;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+header .modal .container-fluid h5 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+}
+
+header .modal .alert {
+    margin-top: 2vmin;
+    display: none;
+}

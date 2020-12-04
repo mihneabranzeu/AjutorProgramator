@@ -1,0 +1,36 @@
+@media only screen and (max-width:768px) {
+    header .row .col-md-7 h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-right: 0.5rem;
+    }
+
+    header .row .col-md-7 p {
+        text-align: center;
+    }
+
+    header .row .col-md-7 .btn1 {
+        width: 95%;
+    }
+
+    header .row .col-md-7 .btn2 {
+        width: 95%;
+    }
+
+    .section-2 .col-md-7 h1 {
+        text-align: center;
+        padding-left: 1rem;
+        font-size: 1.1rem;
+        padding-right: 1rem;
+    }
+
+    .section-2 .col-md-7 p {
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .section-2 .col-md-5 .d-flex {
+        justify-content: center;
+    }
+}
